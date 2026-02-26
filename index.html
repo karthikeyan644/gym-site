@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maruthi Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">🏋️ MARUTHI GYM</div>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <h1>Build Your Dream Body</h1>
+        <p>Join Maruthi Gym Today & Transform Yourself</p>
+        <button>Join Now</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about hidden">
+        <h2>About Maruthi Gym</h2>
+        <p>
+            Maruthi Gym provides world-class fitness training, modern equipment,
+            professional trainers, and a motivating environment to help you achieve your goals.
+        </p>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery hidden">
+        <h2>Our Gym</h2>
+        <div class="gallery-container">
+            <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="gym1">
+            <img src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e" alt="gym3">
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews hidden">
+        <h2>What Our Members Say</h2>
+        <div class="review-box">
+            <p>"Best gym with best trainers. Highly recommended!"</p>
+            <h4>- Ragava</h4>
+        </div>
+        <div class="review-box">
+            <p>"Amazing atmosphere and modern equipment."</p>
+            <h4>- Karthik</h4>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact hidden">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© since 1985 Maruthi Gym With 30 Years Trust | All Rights Reserved</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
